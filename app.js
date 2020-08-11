@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.post('/reset', (req, res) => {
   accounts.length = 0;
-  res.status(200).send();
+  res.status(200).json('OK');
 });
 
 module.exports = app;
