@@ -1,0 +1,17 @@
+{
+  "name": "ebanx-assignment",
+  "version": "1.0.0",
+  "description": "EBANX Software Engineer Take-home assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EBANX"
+  ],
+  "author": "Yunus Emre Demirbulut",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
