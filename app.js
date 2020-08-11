@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const accounts = require('./data/accounts');
+var accounts = require('./data/accounts');
 
 // Routes
 const balanceRoutes = require('./routes/balance');
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/reset', (req, res) => {
-  accounts = [];
+  accounts.length = 0;
   res.status(200).send();
 });
 
